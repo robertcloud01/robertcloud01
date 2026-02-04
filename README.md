@@ -38,10 +38,11 @@
   <table style="border: none;">
     <tr>
       <td style="border: none; padding-right: 20px;">
-        <img src="https://github-readme-stats-5r8xbu3jl-robertos-projects-bf2ebcf9.vercel.app/api?username=robertcloud01&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7aa2f7&icon_color=bb9af7&count_private=true&include_all_commits=true" height="180" alt="stats graph" />
+        <!-- TENTATIVA COM SEU DOMÍNIO DE PRODUÇÃO (Se der erro, avise) -->
+        <img src="https://github-readme-stats-robertos-projects.vercel.app/api?username=robertcloud01&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7aa2f7&icon_color=bb9af7&count_private=true&include_all_commits=true" height="180" alt="stats graph" />
       </td>
       <td style="border: none;">
-        <img src="https://github-readme-stats-5r8xbu3jl-robertos-projects-bf2ebcf9.vercel.app/api/top-langs/?username=robertcloud01&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7aa2f7" height="180" alt="languages graph" />
+        <img src="https://github-readme-stats-robertos-projects.vercel.app/api/top-langs/?username=robertcloud01&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7aa2f7" height="180" alt="languages graph" />
       </td>
     </tr>
   </table>
