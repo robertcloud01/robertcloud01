@@ -26,7 +26,7 @@ jobs:
           # Cores dos commits indo do roxo escuro até o verde/amarelo neon
           outputs: |
             dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#39FF14&color_dots=#0d1117,#4b0082,#7aa2f7,#bc13fe,#39FF14
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#7aa2f7&color_dots=#161b22,#393e46,#7aa2f7,#b4f9f8,#00d9ff
           
       - uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
