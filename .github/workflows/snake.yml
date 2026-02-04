@@ -1,39 +1,32 @@
 name: Generate Snake
 
 on:
-  # Roda a cada 12 horas
   schedule:
     - cron: "0 */12 * * *" 
-  
-  # Roda SEMPRE que você fizer um push (commit) na main/master
   push:
     branches:
       - main
       - master
-  
-  # Permite rodar manualmente
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    
-    # Permissões necessárias para gravar o arquivo da cobra
     permissions:
       contents: write
-
     steps:
       - uses: actions/checkout@v2
 
       - uses: Platane/snk@v3
         with:
-          # github user name to read the contribution graph from (**Required**)
           github_user_name: ${{ github.repository_owner }}
-
-          # Customização Premium Tokyo Night
+          
+          # PALETA CYBERPUNK NEON (Muito mais vibrante)
+          # Fundo escuro (#0d1117)
+          # Cores dos commits indo do roxo escuro até o verde/amarelo neon
           outputs: |
             dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#7aa2f7&color_dots=#1a1b26,#164e63,#2ac3de,#7aa2f7,#bb9af7
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#39FF14&color_dots=#0d1117,#4b0082,#7aa2f7,#bc13fe,#39FF14
           
       - uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
