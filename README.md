@@ -19,7 +19,7 @@ const desenvolvedor = {
   nome: "Roberto Pereira",
   cargo: "Arquiteto Full Stack",
   localizacao: "Brasil",
-  nivel: "Sênior",
+  nivel: "unknown ∞ ",
   status: "Codando Soluções",
   codigo: ["Limpo", "Eficiente", "Escalável"]
 };
