@@ -17,7 +17,7 @@
         <pre style="font-family: 'Fira Code', monospace; color: #e6edf3;">
 const desenvolvedor = {
   nome: "Roberto Pereira",
-  cargo: "Arquiteto Full Stack",
+  cargo: "dev Full Stack",
   localizacao: "Brasil",
   nivel: "unknown ∞ ",
   status: "Codando Soluções",
